@@ -11,8 +11,8 @@ import swaglabsTestPage.LoginTestRun;
 
 public class logoutpage extends LoginTestRun {
 	WebDriver driver;
-	public  logoutpage(WebDriver ldriver) {
-		driver=ldriver;
+	public  logoutpage(WebDriver rdriver) {
+		driver=rdriver;
 	}
 	By menu=By.xpath("//div[@class='bm-burger-button']");
 	By logout=By.xpath("//a[@id='logout_sidebar_link']");

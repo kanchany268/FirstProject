@@ -12,8 +12,8 @@ import swaglabsTestPage.LoginTestRun;
 public class MeanuItems extends LoginTestRun  {
 	WebDriver driver;
 
-public MeanuItems(WebDriver ldriver) {
-	driver=ldriver;
+public MeanuItems(WebDriver rdriver) {
+	driver=rdriver;
 }
 
     By menu=By.xpath("//div[@class='bm-burger-button']");
