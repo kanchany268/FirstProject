@@ -31,7 +31,7 @@ public class LoginTestRun {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 	}
-	@Test(dataProvider = "datavalues",dataProviderClass = Allvalues .class)
+	@Test(dataProvider = "datavalue",dataProviderClass = Allvalues .class)
 	public void login(String username,String password) {
 		try {
 		driver.findElement(By.id("user-name")).clear();

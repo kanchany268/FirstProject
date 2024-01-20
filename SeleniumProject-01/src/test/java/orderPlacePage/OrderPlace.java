@@ -15,8 +15,8 @@ public class OrderPlace extends LoginTestRun {
 
 	
 	WebDriver driver;
-	public OrderPlace(WebDriver rdriver) {
-		driver=rdriver;
+	public OrderPlace(WebDriver ldriver) {
+		driver=ldriver;
 	}
 	By firstName=By.name("firstName");
 	By lastName=By.name("lastName");
