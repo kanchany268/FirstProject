@@ -1,10 +1,15 @@
-package swaglabsProject;
+package menuitemsPage;
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class MeanuItems {
+import swaglabsTestPage.LoginTestRun;
+
+
+public class MeanuItems extends LoginTestRun  {
 	WebDriver driver;
 
 public MeanuItems(WebDriver Ldriver) {
@@ -12,28 +17,28 @@ public MeanuItems(WebDriver Ldriver) {
 }
 
     By menu=By.xpath("//div[@class='bm-burger-button']");
-    By About=By.id("about_sidebar_link") ;
-    By ResetAppState=By.id("reset_sidebar_link"); WebElement Reset;
-	By AllItems=By.id("inventory_sidebar_link");
+    By about=By.id("about_sidebar_link") ;
+    By resetappstate=By.id("reset_sidebar_link"); WebElement Reset;
+	By allitems=By.id("inventory_sidebar_link");
 	By close=By.id("react-burger-cross-btn");
 
 public void clickMenu() throws InterruptedException {
 
 	driver.findElement(menu).click();
-    Thread.sleep(2000);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 }
 
    public void clickAbout() throws InterruptedException {
-	driver.findElement(About).click();
+	driver.findElement(about).click();
 
 	java.util.Set<String>s=driver.getWindowHandles();
 	 for(String window: s ) {
 		  driver.switchTo().window(window);
 		  }
 	 String actualTittle=driver.getTitle();
-     String ExpectedTittle="Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing";
-     		if(ExpectedTittle.equalsIgnoreCase(actualTittle))
+     String expectedTittle="Sauce Labs: Cross Browser Testing, Selenium Testing & Mobile Testing";
+     		if(expectedTittle.equalsIgnoreCase(actualTittle))
 
      		{
      			System.out.println(actualTittle);
@@ -45,31 +50,31 @@ public void clickMenu() throws InterruptedException {
      		}
 
 	driver.navigate().back();
-	Thread.sleep(2000);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 }
 public void clickMenus() throws InterruptedException {
 
 	driver.findElement(menu).click();
-	Thread.sleep(2000);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 
 }
 	public void clickReset() throws InterruptedException {
-	driver.findElement(ResetAppState).click();
-	Thread.sleep(2000);
+	driver.findElement(resetappstate).click();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 
 	}
 
 
 
 public void clickAllItems() throws InterruptedException {
-	driver.findElement(AllItems).click();
-	Thread.sleep(2000);
+	driver.findElement( allitems).click();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
 }
 public void clickClose() throws InterruptedException {
 	driver.findElement(close).click();
-	Thread.sleep(3000);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 }
 }
 

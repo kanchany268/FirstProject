@@ -1,10 +1,15 @@
-package swaglabsProject;
+package logoutPage;
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-public class logoutpage {
+import swaglabsTestPage.LoginTestRun;
+
+
+
+public class logoutpage extends LoginTestRun {
 	WebDriver driver;
 	public  logoutpage(WebDriver ldriver) {
 		driver=ldriver;
@@ -15,11 +20,11 @@ public class logoutpage {
   public void clickMenu() throws InterruptedException {
 
     	driver.findElement(menu).click();
-        Thread.sleep(2000);
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
   }
 public void clickonLogOUTButton() throws InterruptedException {
 	driver.findElement(logout).click();
-	Thread.sleep(2000);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 }
 

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="firstProject.TestPage">
+      <class name="swaglabsTestPage.run">
         <methods>
-          <include name="lanchuBrowser"/>
-          <include name="verifyaccesmenu"/>
-          <include name="teardown"/>
+          <include name="runp"/>
+          <include name="lb"/>
         </methods>
-      </class> <!-- firstProject.TestPage -->
+      </class> <!-- swaglabsTestPage.run -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
