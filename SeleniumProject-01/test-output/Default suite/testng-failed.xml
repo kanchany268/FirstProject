@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="swaglabsTestPage.run">
+      <class name="swaglabsTestPage.LoginTestRun">
         <methods>
-          <include name="runp"/>
-          <include name="lb"/>
+          <include name="login" invocation-numbers="2"/>
+          <include name="LanchuBrowser"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- swaglabsTestPage.run -->
+      </class> <!-- swaglabsTestPage.LoginTestRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

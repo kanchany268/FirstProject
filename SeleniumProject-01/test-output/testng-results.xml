@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-20T19:13:12 IST" name="Default suite" finished-at="2024-01-20T19:16:49 IST" duration-ms="217591">
+  <suite started-at="2024-01-20T20:16:17 IST" name="Default suite" finished-at="2024-01-20T20:21:47 IST" duration-ms="330416">
     <groups>
     </groups>
-    <test started-at="2024-01-20T19:13:12 IST" name="Default test" finished-at="2024-01-20T19:16:49 IST" duration-ms="217591">
+    <test started-at="2024-01-20T20:16:17 IST" name="Default test" finished-at="2024-01-20T20:21:47 IST" duration-ms="330416">
       <class name="swaglabsTestPage.LoginTestRun">
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:13:12 IST" name="LanchuBrowser" finished-at="2024-01-20T19:13:24 IST" duration-ms="12591" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:16:17 IST" name="LanchuBrowser" finished-at="2024-01-20T20:16:26 IST" duration-ms="9804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:13:24 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:13:53 IST" duration-ms="29301" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:16:26 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:16:49 IST" duration-ms="22905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:13:54 IST" name="tearDown" finished-at="2024-01-20T19:13:54 IST" duration-ms="314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:13:54 IST" name="LanchuBrowser" finished-at="2024-01-20T19:14:06 IST" duration-ms="12361" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:16:49 IST" name="LanchuBrowser" finished-at="2024-01-20T20:17:06 IST" duration-ms="16717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:06 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:14:27 IST" duration-ms="20460" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:17:06 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:17:27 IST" duration-ms="20700" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +47,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:27 IST" name="tearDown" finished-at="2024-01-20T19:14:27 IST" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:27 IST" name="LanchuBrowser" finished-at="2024-01-20T19:14:35 IST" duration-ms="8534" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:17:27 IST" name="LanchuBrowser" finished-at="2024-01-20T20:17:47 IST" duration-ms="20364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:35 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:14:56 IST" duration-ms="20418" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:17:47 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:18:08 IST" duration-ms="20454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:56 IST" name="tearDown" finished-at="2024-01-20T19:14:56 IST" duration-ms="517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:14:56 IST" name="LanchuBrowser" finished-at="2024-01-20T19:15:04 IST" duration-ms="8139" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:18:08 IST" name="LanchuBrowser" finished-at="2024-01-20T20:18:36 IST" duration-ms="28010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:04 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:15:25 IST" duration-ms="20443" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:18:36 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:18:56 IST" duration-ms="20516" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,15 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:25 IST" name="tearDown" finished-at="2024-01-20T19:15:25 IST" duration-ms="241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:25 IST" name="LanchuBrowser" finished-at="2024-01-20T19:15:31 IST" duration-ms="6294" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:18:56 IST" name="LanchuBrowser" finished-at="2024-01-20T20:19:26 IST" duration-ms="29647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:31 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:15:53 IST" duration-ms="21205" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:19:26 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:19:48 IST" duration-ms="21740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:53 IST" name="tearDown" finished-at="2024-01-20T19:15:53 IST" duration-ms="255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:15:53 IST" name="LanchuBrowser" finished-at="2024-01-20T19:16:00 IST" duration-ms="7242" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:19:48 IST" name="LanchuBrowser" finished-at="2024-01-20T20:20:09 IST" duration-ms="21726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:16:00 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:16:21 IST" duration-ms="20358" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:20:09 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:20:35 IST" duration-ms="25949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:16:21 IST" name="tearDown" finished-at="2024-01-20T19:16:21 IST" duration-ms="292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:16:21 IST" name="LanchuBrowser" finished-at="2024-01-20T19:16:28 IST" duration-ms="7469" status="PASS">
+        <test-method is-config="true" signature="LanchuBrowser()[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:20:35 IST" name="LanchuBrowser" finished-at="2024-01-20T20:21:26 IST" duration-ms="50830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchuBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:16:28 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T19:16:49 IST" duration-ms="20443" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:swaglabsTestPage.LoginTestRun@3b0090a4]" started-at="2024-01-20T20:21:26 IST" name="login" data-provider="datavalue" finished-at="2024-01-20T20:21:47 IST" duration-ms="20619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,10 +147,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swaglabsTestPage.LoginTestRun@7eac9008]" started-at="2024-01-20T19:16:49 IST" name="tearDown" finished-at="2024-01-20T19:16:49 IST" duration-ms="384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- swaglabsTestPage.LoginTestRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

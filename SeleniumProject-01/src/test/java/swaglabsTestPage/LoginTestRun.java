@@ -83,10 +83,7 @@ public class LoginTestRun {
 		
 	}
 	}
-	@AfterMethod
-	public void tearDown() {
-		driver.quit();
-	}
+	
 	}
 
 
