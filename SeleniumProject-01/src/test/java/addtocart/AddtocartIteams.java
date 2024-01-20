@@ -10,8 +10,8 @@ import swaglabsTestPage.LoginTestRun;
 
 public class AddtocartIteams extends LoginTestRun  {
 	WebDriver driver;
-	public  AddtocartIteams(WebDriver Ldriver) {
-		driver=Ldriver;
+	public  AddtocartIteams(WebDriver rdriver) {
+		driver=rdriver;
 
 	}
 	By backpack=By.id("item_4_title_link");
